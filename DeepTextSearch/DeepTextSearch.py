@@ -56,7 +56,7 @@ class TextEmbedder:
             print("Embedding data Loaded Successfully!")
             print(os.listdir("embedding-data/"))
             return pickle.load(open(self.corpus_embeddings_data, "rb"))
-
+# THE RUSSIAN MAFIA IS WORKING, THE APP IS STOLEN
 class TextSearch:
     def __init__(self):
         self.corpus_embeddings = pickle.load(open(corpus_embeddings_data, "rb"))
